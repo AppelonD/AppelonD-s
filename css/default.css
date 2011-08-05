@@ -2,94 +2,127 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
 audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
 
 body {
-	background-image: url("../images/background.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	position: relative;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
 }
 
 #pos {
-	width: 860px;
-	margin: 0 auto 0 auto;
+  width: 860px;
+  margin: 0 auto 0 auto;
 }
 
 header {
-	width: 860px;
-	height: 120px;
-  	background: url("../images/Banner.png") no-repeat;
-  	border-radius: 15px;
-  	margin-bottom: 10px;
+  width: 860px;
+  height: 120px;
+    background: url("../images/Banner.png") no-repeat;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 
 #main {
-	float: left;
-	padding: 10px;
-	width: 580px;
-	background: url("../images/backgroundbox.png") repeat-x;
-	margin: 10px;
-	border-radius: 15px;
+  float: left;
+  padding: 10px;
+  /*width: 580px;*/
+  background: url("../images/backgroundbox.png");
+  margin: 10px;
+  border-radius: 15px;
 }
 
 
 
 #breadcrumbs {
-	clear: both;
-	font-style: italic;
+  clear: both;
+  font-style: italic;
 }
 
 #nav_main {
-	 clear: both;;
-	 font-weight: bold;
-	 color: #000000;
-	 text-align: center;
-	 padding-bottom: 2px;
-	 
+   clear: both;;
+   font-weight: bold;
+   color: #000000;
+   text-align: center;
+   padding-bottom: 2px;
+   
 }
 
 #nav {
-	clear: right;
-	background: url("../images/main_back.png") repeat-x;
-	border-radius: 15px;
-	padding-left: 10px;
+  clear: right;
+  background: url("../images/main_back.png") repeat-x;
+  border-radius: 15px;
+  padding-left: 10px;
+}
+
+#nav_main ul, li {
+     float: left;
+     display: inline;
+     margin: 0;
+     padding: 0;
+     list-style-type: none;
+     text-align: center;
+     text-decoration: none;
+     padding: .2em 1em;
+}
+
+nav ul li a:hover {
+ color: #fff; 
+
 }
 
 article {
-	float: left;
-	
-	
-}
-
-article section h2, p {
-	color: #000000;
+  float: left;
+  
+  
 }
 
 aside {
-	float: right;
-	width: 215px;
-	background: url("../images/main_back.png") ;
-	border-radius: 15px;
-	margin: 10px;
-}
-aside h4 {
-	color: #000000;
-}
-footer {
-	clear: both;
- 	height: 59px;
-  	width: 860px;
-  	background: url("../images/Footer-01.png") no-repeat;
-  	border-radius: 15px;
+  float: right;
+  width: 315px;
+  background: url("../images/main_back.png");
+  border-radius: 15px;
+  margin-top: 20px;
 }
 
-#fedora {
-	float: left;
-	margin-left: 25px;
-	margin-top: 25px;
+#right ul li {
+  width: 215px;
+  float: none;
 }
+
+#right ul li a:hover, a:active {
+ color: #fff; 
+}
+
+footer {
+  clear: both;
+   height: 59px;
+    width: 860px;
+    background: url("../images/Footer-01.png") no-repeat;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#cool {
+	width: 860px;
+  	margin: 0 auto 0 auto;
+	clear: both;
+}
+
+#googleplus {
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+¤fedora {
+	float: left;
+	width: 200px;
+	height: 61px;
+}
+
 #python {
 	float: right;
-	margin-right: 25px;
-	margin-top: 25px;
+	width: 200px;
+	height: 68px;
 }
