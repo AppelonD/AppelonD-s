@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="template" client="site">
+	<name>appelond</name>
+	<creationDate>26 July 2011</creationDate>
+	<author>Dennis Appelon Nielsen</author>
+	<authorEmail>dennis@appelon.net</authorEmail>
+	<authorUrl>http://appelond.appelon.net</authorUrl>
+	<copyright>Copyright (C) 2011 Dennis Appelon Nielsen All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>0.0.9</version>
+	<description>APPELOND</description>
+	<files>
+		<folder>css</folder>
+		<folder>images</folder>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+	</files>
+	<positions>
+		<position>breadcrumbs_top</position>
+		<position>nav_main_top</position>
+		<position>nav_right</position>
+		<position>footer</position>
+		<position>fedora</position>
+		<position>python</position>
+	</positions>
+</extension>
