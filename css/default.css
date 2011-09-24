@@ -30,21 +30,22 @@ header {
   background: url("../images/backgroundbox.png");
   margin: 10px;
   border-radius: 15px;
+  color: black;
 }
-
-
 
 #breadcrumbs {
   clear: both;
   font-style: italic;
 }
 
+
 #nav_main {
-   clear: both;;
+   clear: both;
    font-weight: bold;
+   font-size: 22px;
    color: #000000;
    text-align: center;
-   padding-bottom: 2px;
+   padding-bottom: 0px;
    
 }
 
@@ -58,50 +59,66 @@ header {
 #nav_main ul, li {
      float: left;
      display: inline;
-     margin: 0;
-     padding: 0;
      list-style-type: none;
      text-align: center;
      text-decoration: none;
-     padding: .2em 1em;
+     padding: .2em 1em 13px;
 }
 
-nav ul li a:hover {
- color: #fff; 
+a.pathway {
+	text-decoration: none;
+}
 
+.menu a:link, a:visited {
+ color: #c2c2c2; 
+ text-decoration: none; 
+ text-shadow: 1px 1px #7f7f7f;
+}
+.menu a:hover {
+	color: white;
 }
 
 article {
   float: left;
-  
-  
+}
+
+article#inlinecontent a {
+	color: blue;
 }
 
 aside {
   float: right;
-  width: 315px;
+  width: 400px;
   background: url("../images/main_back.png");
   border-radius: 15px;
-  margin-top: 20px;
+  margin-top: 15px;
+  text-align: center;
 }
-
+/*
 #right ul li {
-  width: 215px;
+  width: 240px;
   float: none;
 }
-
-#right ul li a:hover, a:active {
- color: #fff; 
+*/
+}
+footer {
+   clear: both;
+   float: none;
+   background: url("../images/Footer-01.png") no-repeat;
+   border-radius: 15px;
+   padding-top: 10px;
 }
 
-footer {
-  clear: both;
-   height: 59px;
-    width: 860px;
-    background: url("../images/Footer-01.png") no-repeat;
-    border-radius: 15px;
-    text-align: center;
-    padding-top: 10px;
+#mantra {
+	clear: both;
+	color: #c2c2c2;
+	background: url("../images/Footer-01.png") no-repeat;
+	padding: 10px;
+	margin: 15px;
+	text-align: center;
+	font-size: 15px;
+	text-shadow: 1px 1px #7f7f7f;
+	border-radius: 15px;
 }
 
 #cool {
@@ -115,10 +132,48 @@ footer {
 	width: 40px;
 	height: 40px;
 }
-¤fedora {
-	float: left;
+
+div#googleplus:hover {
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+	/* Firefox 4 */
+	-moz-transition-property:width;
+	-moz-transition-duration:1s;
+	-moz-transition-timing-function:linear;
+	-moz-transition-delay:2s;
+	-moz-transform: rotate(360deg) scale(2);
+	/* Safari and Chrome */
+	-webkit-transition-property:all;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:0s;
+	-webkit-transform: scale(2);
+}
+#fedora {
+	float: right;
 	width: 200px;
 	height: 61px;
+}
+
+div#fedora:hover {
+	transition-property: width;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transition-delay: 0s;
+	/* Firefox 4 */
+	-moz-transition-property:width;
+	-moz-transition-duration:1s;
+	-moz-transition-timing-function:linear;
+	-moz-transition-delay:2s;
+	-moz-transform: rotate(360deg) scale(2);
+	/* Safari and Chrome */
+	-webkit-transition-property:all;
+	-webkit-transition-duration:1s;
+	-webkit-transition-timing-function:linear;
+	-webkit-transition-delay:0s;
+	-webkit-transform: rotate(360deg) scale(2);
 }
 
 #python {
